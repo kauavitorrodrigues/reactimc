@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Calculadora de IMC
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples de calculadora de IMC (Índice de Massa Corpórea) desenvolvido com ReactJS e TypeScript. O IMC é um parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa com base na sua altura e peso.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **ReactJS:** Biblioteca JavaScript para criar interfaces de usuário.
+- **TypeScript:** Superconjunto de JavaScript que adiciona tipagem estática ao código.
+- **CSS Modules:** Estilização dos componentes com escopo local.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Calcular IMC:** O usuário pode inserir sua altura e peso para calcular o IMC.
+- **Exibição do Resultado:** Após o cálculo, o IMC é exibido juntamente com uma descrição do nível correspondente.
+- **Reset:** O usuário pode resetar os campos de entrada e realizar um novo cálculo.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+- **App.module.css:** Arquivo de estilos usando CSS Modules.
+- **assets/:** Pasta contendo as imagens utilizadas no projeto.
+- **helpers/imc.ts:** Módulo que contém a lógica para calcular o IMC e os níveis correspondentes.
+- **components/GridItem.tsx:** Componente que exibe o item de nível do IMC.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar o Projeto
 
-### `npm run build`
+1. **Clone o Repositório:**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   cd nome-do-repositorio
+2. **Instale as Dependências:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+3. **Inicie o Servidor de Desenvolvimento:**
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
