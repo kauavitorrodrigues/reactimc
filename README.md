@@ -26,9 +26,9 @@ Este é um projeto simples de calculadora de IMC (Índice de Massa Corpórea) de
 1. **Clone o Repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/seu-usuario/reactimc
 
-   cd nome-do-repositorio
+   cd reactimc
 2. **Instale as Dependências:**
 
    ```bash
